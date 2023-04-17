@@ -1,0 +1,12 @@
+.container_name {
+    text-align: center;
+}
+
+.cryptos_container {
+    max-width: 1100px;
+    padding: 2rem 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}

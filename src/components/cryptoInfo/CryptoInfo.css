@@ -1,0 +1,28 @@
+.titles {
+    text-align: center;
+}
+
+.crypto_info table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 1150px;
+    margin: 20px auto;
+}
+
+.crypto_info th {
+    border: 1px solid #4a4a4a;
+    background-color: #161717;
+    padding: 10px;
+}
+
+.crypto_info td {
+    background-color: #212529;
+    color: rgb(255, 255, 255);
+    border: 1px solid #4a4a4a;
+    padding: 10px;
+}
+
+.crypto_info tr:nth-child(even) td {
+    background-color: #161717;
+}

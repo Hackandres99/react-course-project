@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+}
+
+.list_item {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #161717;
+    border: 1px solid #4a4a4a;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+}

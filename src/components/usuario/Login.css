@@ -1,0 +1,58 @@
+.form_section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.session_form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.email_input,
+.password_input {
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.email_label,
+.password_label {
+    font-size: 18px;
+}
+
+.send_input {
+    border: none;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 1em;
+    height: 2.5em;
+    width: 8em;
+    border-radius: 4px;
+    color: rgb(158, 158, 158);
+    background-color: #111;
+    cursor: pointer;
+    font-family: CenturyGothic;
+    transition: all 0.5s ease;
+}
+
+.send_input:hover {
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.error {
+    text-align: center;
+    background-color: tomato;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}

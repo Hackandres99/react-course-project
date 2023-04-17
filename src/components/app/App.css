@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(31, 30, 32, 0.924);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-size-adjust: 16px;
+}
+
+#root {
+    height: 100vh;
+}

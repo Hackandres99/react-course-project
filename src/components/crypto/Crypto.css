@@ -1,0 +1,33 @@
+.crypto_item {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(60, 219, 255);
+    border-radius: 5px;
+    border-left: 10px solid rgb(60, 219, 255);
+    padding: 5px 10px;
+}
+
+.crypto_name {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.crypto_tag {
+    color: rgb(60, 219, 255);
+    margin: 5px 0;
+}
+
+.crypto_price {
+    margin-left: 5px;
+    color: rgb(150, 150, 150);
+}
+
+.negative {
+    color: red;
+    margin-left: 5px;
+}
+
+.positive {
+    color: green;
+    margin-left: 5px;
+}
